@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pytorch-cluster-metrics"
+version = "0.1.0"
+description = "Pytorch implementation of standard metrics for clustering."
+authors = ["Max Schelski <max.schelski@googlemail.com>", "Aislan Freitas <aislansf@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pytorch_cluster_metrics"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+sphinx = "^6.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
