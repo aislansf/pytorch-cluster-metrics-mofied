@@ -10,8 +10,13 @@
 **[Changelog](https://pytorch-cluster-metrics.io/en/latest/CHANGELOG/)** | 
 **[Citation](https://pytorch-cluster-metrics.io/en/latest/citation/)**
 
+## installation
 
+the `pytorch-cluster-metrics` package is available in [PyPI](). to install, simply type the following command:
 
+```
+pip install pytorch-cluster-metrics
+```
 
 Pytorch implementation of standard metrics for clustering.
 Test on PyTorch = 1.10.1 / cuda11.3_cudnn8_0
